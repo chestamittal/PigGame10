@@ -149,7 +149,7 @@ function btn2(){
      else{
         
         
-         
+         // This is a great project. 
          scores[1]+=roundscore;
          roundscore=0;
          document.querySelector('.player-'+ activePlayer +'-panel').classList.remove('active');
