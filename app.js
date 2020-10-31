@@ -17,7 +17,6 @@ document.getElementById('score-1').textContent = '0';
 document.getElementById('current-1').textContent = '0';
 document.getElementById('current-0').textContent = '0';
 
-
 function btn(){
     if(gameplaying)
     {
@@ -27,7 +26,8 @@ function btn(){
         //display
         var diceDom=document.querySelector('.dice');
         diceDom.style.display='block';
-        if(dice== 1){
+        if(dice== 1)
+        {
    
    
    
